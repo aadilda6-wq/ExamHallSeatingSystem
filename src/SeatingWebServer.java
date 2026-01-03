@@ -58,7 +58,7 @@ public class SeatingWebServer {
                 "<ul class='navbar-nav'>" +
                 "<li class='nav-item'><a class='nav-link' href='#'>Home</a></li>" +
                 "<li class='nav-item'><a class='nav-link' href='#'>About</a></li>" +
-                "<li class='nav-item'><a class='nav-link' href='#'>Work</a></li>" +
+                "<li class='nav-item'><a class='nav-link' href='#'>Admin</a></li>" +
                 "<li class='nav-item'><a class='btn btn-custom ms-2' href='#form-section'>Get Started</a></li>" +
                 "</ul></div></div></nav>" +
 
@@ -120,7 +120,7 @@ public class SeatingWebServer {
                     "<style>" +
                     "body{background:#f6f8fb}" +
                     ".floorplan img{max-width:100%;height:auto;border-radius:12px;border:1px solid #e3e6ea}" +
-                    ".seat-grid{display:grid;grid-template-columns:repeat(8,48px);gap:10px;justify-content:center}" +
+                    ".seat-grid{display:grid;grid-template-columns:repeat(6,48px);gap:10px;justify-content:center}" +
                     ".seat{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;" +
                     "font-weight:600;color:#334155;background:#f1f5f9;border:1px solid #e2e8f0}" +
                     ".seat.selected{background:#6c63ff;color:#fff;border-color:#5145cd;box-shadow:0 0 0 4px rgba(108,99,255,.15)}" +
@@ -139,7 +139,7 @@ public class SeatingWebServer {
                     "<div class='row g-4'>" +
                     "<div class='col-lg-6'>" +
                     "<div class='card p-3 floorplan'>" +
-                    "<h5 class='mb-3'>Floor Plan</h5>" +
+                    "<h5 class='mb-3'> </h5>" +
                     floorPlanHtml +
                     "</div></div>" +
 
