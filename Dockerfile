@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY src ./src
 COPY data ./data
-COPY static ./static   ← REQUIRED
+COPY static ./static
 
 RUN javac src/*.java
 
