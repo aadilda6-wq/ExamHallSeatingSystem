@@ -114,7 +114,10 @@ public class SeatingWebServer {
             // Build seating grid with the student's seat highlighted
             String seatGridHtml = buildSeatGridHtml(room, seatLabel);
 
-            response = "<!DOCTYPE html><html><head>" +
+            response = "<!DOCTYPE html>" +
+                    "<html lang='en'><head>" +
+                    "<meta charset='UTF-8'>" +
+                    "<meta name='viewport' content='width=device-width, initial-scale=1.0'>" +
                     "<title>Seating Result</title>" +
                     "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'>" +
                     "<style>" +
