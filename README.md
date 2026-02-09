@@ -25,7 +25,7 @@ Frontend: HTML, CSS, JavaScript
 
 Backend: Java (HttpServer)
 
-Data Storage: Text file (seatingData.txt)
+Data Storage: SQLite database (data/seating.db)
 
 Deployment:
 
@@ -40,6 +40,7 @@ ExamHallSeatingSystem/
 │   ├── SeatingDatabase.java
 │   └── SeatingWebServer.java
 ├── data/
+│   ├── seating.db
 │   └── seatingData.txt
 ├── static/
 │   ├── floorplan_first_room101.png
@@ -68,6 +69,8 @@ How to Run the Project Locally
 Step 1: Compile Java Files
 javac src/*.java
 
+Prerequisite: Ensure `sqlite3` is installed and available on your PATH. If it is missing, the app will fall back to legacy text-file storage.
+
 Step 2: Run the Java Web Server
 java -cp src SeatingWebServer
 
@@ -80,6 +83,7 @@ http://localhost:8080
 Docker Deployment (Backend)
 Dockerfile
 FROM openjdk:17-jdk-slim
+RUN apt-get update && apt-get install -y sqlite3 && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 COPY src ./src
 COPY data ./data
@@ -90,7 +94,7 @@ CMD ["java", "-cp", "src", "SeatingWebServer"]
 
 On Render, select Docker as the runtime environment and configure the service to use port 8080.
 
-Sample Seating Data Format
+Sample Seating Data Format (legacy import)
 CS2024001,Room-101,First Floor,S01
 CS2024002,Room-101,First Floor,S02
 CS2024003,Room-102,First Floor,S01
@@ -111,7 +115,7 @@ Future Enhancements
 
 Fully automated seat allocation logic
 
-Database integration (MySQL or PostgreSQL)
+Optional integration with external databases (MySQL or PostgreSQL) for larger deployments
 
 Admin dashboard for managing seating data
 

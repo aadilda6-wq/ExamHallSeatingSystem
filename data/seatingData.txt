@@ -1,20 +1,20 @@
-CS2024001,Room-101,First Floor,S01
-CS2024002,Room-101,First Floor,S02
-CS2024003,Room-101,First Floor,S03
-CS2024004,Room-101,First Floor,S04
-CS2024005,Room-101,First Floor,S05
-CS2024006,Room-102,First Floor,S01
-CS2024007,Room-102,First Floor,S02
-CS2024008,Room-102,First Floor,S03
-CS2024009,Room-102,First Floor,S04
-CS2024010,Room-102,First Floor,S05
-CS2024011,Room-201,Second Floor,S01
-CS2024012,Room-201,Second Floor,S02
-CS2024013,Room-201,Second Floor,S03
-CS2024014,Room-201,Second Floor,S04
-CS2024015,Room-201,Second Floor,S05
-CS2024016,Room-202,Second Floor,S01
-CS2024017,Room-202,Second Floor,S02
-CS2024018,Room-202,Second Floor,S03
-CS2024019,Room-202,Second Floor,S04
-CS2024020,Room-202,Second Floor,S05
+CS2024001,Room-101,First Floor,S01,Data Structures,2024-12-10,09:00
+CS2024002,Room-101,First Floor,S02,Data Structures,2024-12-10,09:00
+CS2024003,Room-101,First Floor,S03,Data Structures,2024-12-10,09:00
+CS2024004,Room-101,First Floor,S04,Data Structures,2024-12-10,09:00
+CS2024005,Room-101,First Floor,S05,Data Structures,2024-12-10,09:00
+CS2024006,Room-102,First Floor,S01,Operating Systems,2024-12-11,13:30
+CS2024007,Room-102,First Floor,S02,Operating Systems,2024-12-11,13:30
+CS2024008,Room-102,First Floor,S03,Operating Systems,2024-12-11,13:30
+CS2024009,Room-102,First Floor,S04,Operating Systems,2024-12-11,13:30
+CS2024010,Room-102,First Floor,S05,Operating Systems,2024-12-11,13:30
+CS2024011,Room-201,Second Floor,S01,Networks,2024-12-12,10:00
+CS2024012,Room-201,Second Floor,S02,Networks,2024-12-12,10:00
+CS2024013,Room-201,Second Floor,S03,Networks,2024-12-12,10:00
+CS2024014,Room-201,Second Floor,S04,Networks,2024-12-12,10:00
+CS2024015,Room-201,Second Floor,S05,Networks,2024-12-12,10:00
+CS2024016,Room-202,Second Floor,S01,Databases,2024-12-13,14:00
+CS2024017,Room-202,Second Floor,S02,Databases,2024-12-13,14:00
+CS2024018,Room-202,Second Floor,S03,Databases,2024-12-13,14:00
+CS2024019,Room-202,Second Floor,S04,Databases,2024-12-13,14:00
+CS2024020,Room-202,Second Floor,S05,Databases,2024-12-13,14:00

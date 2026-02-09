@@ -3,12 +3,18 @@ public class Student {
     private String room;
     private String floor;
     private String seatNumber;
+    private String examName;
+    private String examDate;
+    private String examTime;
 
-    public Student(String rollNumber, String room, String floor, String seatNumber) {
+    public Student(String rollNumber, String room, String floor, String seatNumber, String examName, String examDate, String examTime) {
         this.rollNumber = rollNumber;
         this.room = room;
         this.floor = floor;
         this.seatNumber = seatNumber;
+        this.examName = examName;
+        this.examDate = examDate;
+        this.examTime = examTime;
     }
 
     public String getRollNumber() {
@@ -27,6 +33,18 @@ public class Student {
         return seatNumber;
     }
 
+    public String getExamName() {
+        return examName;
+    }
+
+    public String getExamDate() {
+        return examDate;
+    }
+
+    public String getExamTime() {
+        return examTime;
+    }
+
     // Helper: numeric index from seat label e.g. "S12" -> 12
     public int getSeatIndex() {
         if (seatNumber == null) return -1;
@@ -43,6 +61,9 @@ public class Student {
         return "Roll Number: " + rollNumber +
                "\nRoom: " + room +
                "\nFloor: " + floor +
-               "\nSeat Number: " + seatNumber;
+               "\nSeat Number: " + seatNumber +
+               "\nExam Name: " + examName +
+               "\nExam Date: " + examDate +
+               "\nExam Time: " + examTime;
     }
 }
